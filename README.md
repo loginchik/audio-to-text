@@ -17,7 +17,7 @@ Create and activate virtual environment. More: [python venv docs](https://docs.p
 
 Install the requirements from `requirements.txt` file:
 
-```python
+```
 pip install -r requirements.txt 
 ```
 
@@ -25,6 +25,6 @@ pip install -r requirements.txt
 
 Code runs in terminal. Entering point is in `cli.py`. Run the file:
 
-```python
+```
 python cli.py
 ```
