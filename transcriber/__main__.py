@@ -37,6 +37,7 @@ def configure_model():
         model_level = "base"
 
     logging.info("Loading model")
+    os.makedirs("models", exist_ok=True)
     model = wh.load_model(model_level, download_root="models/")
     logging.info("Model loaded")
     return model
